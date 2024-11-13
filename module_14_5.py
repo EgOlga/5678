@@ -9,7 +9,7 @@ from crud_functions import *
 
 initiate_db()
 
-api = "7565705801:AAFvLmFKnEMuH3Kkxc-bJ9VXiLZ_hiTsQ14"
+api = ""
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
